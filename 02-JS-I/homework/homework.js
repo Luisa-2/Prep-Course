@@ -29,7 +29,6 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
 return str;
-
 }
 
 function suma(x, y) {
@@ -75,7 +74,7 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   if (str1.length === str2.length){
     return true;
-  } else return false;
+  } else {return false;}
   }
 
 function menosQueNoventa(num) {
